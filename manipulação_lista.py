@@ -1,4 +1,4 @@
-def limpar_tela():
+def clean_screen():
     import os
     os.system('cls' if os.name == 'nt' else 'clear')
   
@@ -80,7 +80,7 @@ def main():
                 show_menu()
             
             if choice == 7:
-              limpar_tela()
+              clean_screen()
               print(f'\033[32mNew List\033[m:\n\033[36m{list}\033[m')
               show_menu()
 

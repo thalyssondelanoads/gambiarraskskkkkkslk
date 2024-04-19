@@ -69,7 +69,6 @@ def main():
             
             if choice == 6:
               positions = int(input('Enter which top positions you want to see (Type "0" if you want to see everyone) : '))
-              
               if positions != 0:
                 for pos,numbers in enumerate(list[:positions]):
                   print(f'\033[35m{pos}º Position\033[m -> \033[32m{numbers}\033[m')

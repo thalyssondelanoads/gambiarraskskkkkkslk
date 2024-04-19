@@ -84,4 +84,5 @@ def main():
               print(f'\033[32mNew List\033[m:\n\033[36m{list}\033[m')
               show_menu()
 
-main()
+if __name__ == "__main__":
+ main()

@@ -8,10 +8,10 @@ Remove a number - [ \033[31m1\033[m ]
 Replace a number - [ \033[31m2\033[m ]
 Add a number - [ \033[31m3\033[m ]
 Arrange in ascending order - [ \033[31m4\033[m ]
-Draw 1 random number from the list [ \033[31m5\033[m ]
-Show position of X elements in the list [ \033[31m6\033[m ]
-Clean screen [ \033[31m7\033[m ]
-End list manipulation [ \033[31m0\033[m ]
+Draw 1 random number from the list - [ \033[31m5\033[m ]
+Show position of X elements in the list - [ \033[31m6\033[m ]
+Clean screen - [ \033[31m7\033[m ]
+End list manipulation - [ \033[31m0\033[m ]
 '''
     print(menu)
 
